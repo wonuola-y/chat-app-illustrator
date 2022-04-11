@@ -314,6 +314,7 @@ main{
     .total-chat{
         width: 80%;
         margin: 50px;
+        margin: 400px;
         align-content: flex-start;
         justify-content: left;
         font-family: 'Rubik';
