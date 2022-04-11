@@ -10,23 +10,17 @@ body{
     width: 50%;
     height: 100vh;
     position: relative;
-    /* top:-50px; */
     background: linear-gradient(to top,hsl(293, 100%, 63%), hsl(264, 100%, 61%) );
-    
     background-repeat: no-repeat;
     z-index: 1;
-    /* background-blend-mode: color; */
-
 background-size: cover;
 margin: 0;
 border-bottom-right-radius: 100%;
 
     
 }
-.chat-space{
-    /* background-color:hsl(270, 20%, 96%); */
+
 background-color: white;
-    /* border: palegreen 2px solid; */
     margin-top: 50px;
     width: 320px;
     /* text-align: center;    */
@@ -61,8 +55,7 @@ border-radius: 5px;
     margin-top: 10px;
 }
 .header{
-    /* width: 300px; */
-    /* border: 2px solid red; */
+   
     position: relative;
     top: -30px;
     left: 0;
@@ -220,7 +213,6 @@ h6{
 }
 
 .first-message{
-    /* background-color: hsl(270, 20%, 96%); */
     background-color:  hsl(276, 100%, 81%);
     /* border: black 2px solid; */
     color:hsl(276, 55%, 52%) ;
@@ -292,18 +284,15 @@ main{
   background-color: antiquewhite;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 3px solid yellow;
     width: 17rem;
     height: 40rem;
     margin-left: -60px;
     border-bottom-right-radius: 20rem;
   border-bottom-left-radius: 20rem;
-    
 }
     .total-chat, .book-space{
         position: relative;
         top: 0;
-        
     }
     .book-space{
         align-content: flex-start;
@@ -330,18 +319,7 @@ main{
         flex-direction: row;
         justify-content: space-around;
         font-family: 'Rubik';
-        /* position: relative;
-        top: 0;
-        position: absolute;
-        width: 17rem;
-        height: 40rem;
-        background-image: -webkit-gradient(linear, left top, left bottom, from(#e942ff), to(#8838ff));
-        background-image: linear-gradient(to bottom, #e942ff, #8838ff);
-        top: 0;
-        left: -4rem;
-        border-bottom-right-radius: 20rem;
-        border-bottom-left-radius: 20rem;
-        z-index: 0; */
+      
     }
     .extra-space{
         height: 0;
