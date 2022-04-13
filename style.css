@@ -292,6 +292,7 @@ main{
   background-color: antiquewhite;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 3px solid yellow;
     width: 30rem;
     height: 40rem;
     margin-left: -60px;
@@ -331,7 +332,17 @@ main{
         justify-content: space-around;
         font-family: 'Rubik';
         /* position: relative;
-    
+        top: 0;
+        position: absolute;
+        width: 17rem;
+        height: 40rem;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#e942ff), to(#8838ff));
+        background-image: linear-gradient(to bottom, #e942ff, #8838ff);
+        top: 0;
+        left: -4rem;
+        border-bottom-right-radius: 20rem;
+        border-bottom-left-radius: 20rem;
+        z-index: 0; */
     }
     .extra-space{
         height: 0;
@@ -339,6 +350,15 @@ main{
     .container{
         width: 100vw;
     }
-   
+    /* input[type=submit], select{
+      position: relative;
+      /* right: -13rem; */
+      /* bottom: 3.5rem;
+      left: 14.5rem;
+    } */
+    /* .message-box{
+        border: 2px red solid;
+
+    } */
 }
 
