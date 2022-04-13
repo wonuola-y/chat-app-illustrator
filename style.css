@@ -159,7 +159,7 @@ li{
 .book-space{
     text-align: center;
    position: relative;
-   top: 200px;
+   top: 320px;
    margin: 12px;
    line-height: 22px;
 
@@ -269,6 +269,8 @@ input[type=submit], select{
     /* width: 20%; */
     position: relative;
     top: 11px;
+  
+    /* bottom: 0; */
     height: 4vh;
     z-index: 1;
     
@@ -279,16 +281,18 @@ a, a:visited, a:active, a:hover{
     color: white;
 }
 .message-box{
+    /* border: 2px red solid; */
  display: flex;
  width: 20vw;
     
 }
-@media  screen and (min-width: 400px) {
+@media  screen and (min-width: 800px) {
 main{
     background: linear-gradient(to top,hsl(293, 100%, 63%), hsl(264, 100%, 61%) );
   background-color: antiquewhite;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 3px solid yellow;
     width: 30rem;
     height: 40rem;
     margin-left: -60px;
@@ -306,15 +310,15 @@ main{
         text-align: left;
         top: 20rem;
         line-height: 200%;
-        font-size: 30px;
-        width: 40vw;
+        font-size: 20px;
+        width: 43vw;
         font-family: 'Rubik';
 
     }
     .total-chat{
         width: 80%;
         margin: 50px;
-        margin-left: 400px;
+        margin-left: 200px;
         align-content: flex-start;
         justify-content: left;
         font-family: 'Rubik';
@@ -327,7 +331,8 @@ main{
         flex-direction: row;
         justify-content: space-around;
         font-family: 'Rubik';
-  
+        /* position: relative;
+    
     }
     .extra-space{
         height: 0;
