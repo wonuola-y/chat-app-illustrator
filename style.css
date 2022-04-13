@@ -28,12 +28,17 @@ border-bottom-right-radius: 100%;
 background-color: white;
     /* border: palegreen 2px solid; */
     margin-top: 50px;
-    width: 320px;
+    width: 450px;
+    height: 700px;
     /* text-align: center;    */
     justify-content: center;
     padding: 20px;
     border-radius: 35px;
     box-shadow: 0 10px 19px 0 rgba(58, 58, 58, 0.5);
+}
+.chat-full{
+    height: 550px;
+    overflow: scroll;
 }
 .chat-content{
     background-color:hsl(270, 20%, 96%);
@@ -76,7 +81,7 @@ border-radius: 5px;
 
 .i{
    
-   width: 162px;
+   width: 222px;
    align-content: center;
    background-color: white;
    border-radius: 12px;
@@ -87,9 +92,7 @@ border-radius: 5px;
    margin: -10px;
    z-index: 1;
 }
-.recipent{
-   margin-bottom: 50px;
-}
+
 
 .pic{
     border-radius: 12px;
@@ -121,7 +124,7 @@ border-radius: 5px;
     flex-direction: column;
     text-align: right;
     position: relative;
-left: 80px;
+left: 120px;
   width: 70%;
 }
 
@@ -215,7 +218,7 @@ h6{
 .colon{
     position: relative;
     top: 2.5rem;
-    left: 10rem;
+    left: 16rem;
     color: white;
 }
 
@@ -279,11 +282,12 @@ input[type=submit], select{
 a, a:visited, a:active, a:hover{
     text-decoration: none;
     color: white;
+    margin-right: 10px;
 }
 .message-box{
     /* border: 2px red solid; */
  display: flex;
- width: 20vw;
+
     
 }
 @media  screen and (min-width: 800px) {
@@ -315,7 +319,7 @@ main{
 
     }
     .total-chat{
-        width: 80%;
+        width: 60%;
         margin: 50px;
         margin-left: 200px;
         align-content: flex-start;
@@ -330,18 +334,7 @@ main{
         flex-direction: row;
         justify-content: space-around;
         font-family: 'Rubik';
-        /* position: relative;
-        top: 0;
-        position: absolute;
-        width: 17rem;
-        height: 40rem;
-        background-image: -webkit-gradient(linear, left top, left bottom, from(#e942ff), to(#8838ff));
-        background-image: linear-gradient(to bottom, #e942ff, #8838ff);
-        top: 0;
-        left: -4rem;
-        border-bottom-right-radius: 20rem;
-        border-bottom-left-radius: 20rem;
-        z-index: 0; */
+  
     }
     .extra-space{
         height: 0;
@@ -349,15 +342,6 @@ main{
     .container{
         width: 100vw;
     }
-    /* input[type=submit], select{
-      position: relative;
-      /* right: -13rem; */
-      /* bottom: 3.5rem;
-      left: 14.5rem;
-    } */
-    /* .message-box{
-        border: 2px red solid;
 
-    } */
 }
 
